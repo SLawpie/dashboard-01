@@ -18,53 +18,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
-    <style>
-     
-    </style>
 </head>
-<body { padding-bottom: 70px; }>
+<body>
     <div id="app">
-        <div class="navbar navbar-light">
-            <div class="container-fluid bg-primary">
-                <div>
-                   &nbsp;
-                </div>
-            </div>
-            {{-- <div class="col-md-1 m-md-1 bg-dark p-3">
-                &nbsp;
-            </div>
-            <div class="col-md m-md-1 bg-dark p-3">
-                &nbsp;
-            </div> --}}
-            {{-- <div class="row mx-md-n5">
-                <div class="col px-md-5"><div class="p-3 border bg-light">Custom column</div></div>
-                <div class="col px-md-5"><div class="p-3 border bg-light">Custom column padding</div></div>
-              </div> --}}
-        </div>
-        
-        <div>
-            <div class="container-fluid bg-dark">
-                <div>
-                   &nbsp;
-                </div>
-            </div>
-            {{-- <div class="col-md-1 ml-2 mr-2 bg-dark">
-                &nbsp;
-            </div> --}}
-        </div>
-        
-        <div class="navbar fixed-bottom">
-            <div class="container-fluid bg-secondary">
-                <div>
-                   &nbsp;
-                </div>
-            </div>
-            {{-- <div class="col-md m-md-1 bg-dark p-4">
-                &nbsp;
-            </div> --}}
-        </div>
-        {{-- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -113,11 +70,11 @@
                     </ul>
                 </div>
             </div>
-        </nav> --}}
+        </nav>
 
-        {{-- <main class="py-4">
+        <main class="py-4">
             @yield('content')
-        </main> --}}
+        </main>
     </div>
 </body>
 </html>
